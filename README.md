@@ -19,13 +19,9 @@ npm start        # http://localhost:3000
 Scripts (in myapp)
 - npm start: start React (port 3000)
 - npm run server: start json-server (port 3001) using db.json
-- npm run build: production build
 
-Tech
-- React 18, Redux + Thunk, React Router v6
-- react-beautiful-dnd (drag-and-drop), Axios
 
-Structure (high-level)
+Structure 
 - myapp/
   - db.json (mock users, boards)
   - src/pages (Login, Signup, Home, BoardDetails)
@@ -34,7 +30,4 @@ Structure (high-level)
   - src/redux (actions, reducers, store)
   - src/services/api.js (Axios + endpoints)
 
-Notes
-- Keep both servers running while developing.
-- Demo credentials in db.json or sign up via UI.
-- For learning only; passwords are plain text in db.json.
+
