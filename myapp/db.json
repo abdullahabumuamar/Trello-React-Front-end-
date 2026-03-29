@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "abood123@gmail.com",
+      "password": "password123"
+    },
+    {
+      "email": "rayan12@gmail.com",
+      "password": "rayray1212**",
+      "id": 2
+    },
+    {
+      "email": "ahmed123@gmail.com",
+      "password": "ahmed123123",
+      "id": 3
+    }
+  ],
+  "boards": [
+    {
+      "title": "java project",
+      "columns": [
+        {
+          "id": "col-1745436110602-31yoaltv5",
+          "title": "page1",
+          "cards": [
+            {
+              "id": "card-1745436115661",
+              "title": "111",
+              "description": "",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "col-1745436112868-omn3xfw4z",
+          "title": "page2",
+          "cards": [
+            {
+              "id": "card-1745436122694",
+              "title": "2222",
+              "description": "22\n",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "title": "java project 2",
+      "columns": [],
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "title": "plan",
+      "columns": [
+        {
+          "id": "col-1765472862640-2gsupybx4",
+          "title": "hel",
+          "cards": [
+            {
+              "id": "card-1765472865242",
+              "title": "lldld",
+              "description": "",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "Andriod project",
+      "columns": [
+        {
+          "id": "col-1774815795706-1or7yroi6",
+          "title": "ui",
+          "cards": []
+        },
+        {
+          "id": "col-1774815804624-ga1kble3y",
+          "title": "db",
+          "cards": []
+        }
+      ],
+      "userId": "2",
+      "id": 7
+    },
+    {
+      "title": "web project ",
+      "columns": [],
+      "userId": "2",
+      "id": 8
+    },
+    {
+      "title": "java script project",
+      "columns": [],
+      "userId": "2",
+      "id": 9
+    }
+  ]
+}

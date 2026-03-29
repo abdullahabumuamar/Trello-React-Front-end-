@@ -1,0 +1,87 @@
+.createColumn {
+  background-color: var(--card-bg);
+  border-radius: 3px;
+  padding: 8px;
+  width: 272px;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.createColumn input {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.createColumn input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 121, 191, 0.2);
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+}
+
+.buttons button[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  flex-grow: 1;
+}
+
+.buttons button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.cancelButton {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+.cancelButton:hover {
+  background-color: var(--border-color);
+}
+
+.addButton {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  width: 100%;
+  justify-content: center;
+}
+
+.addButton:hover {
+  opacity: 0.9;
+}
+
+.addButton span {
+  margin-left: 4px;
+} 

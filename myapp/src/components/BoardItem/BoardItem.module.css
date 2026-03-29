@@ -1,0 +1,121 @@
+.boardItem {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.boardItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.viewMode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.viewMode h3 {
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.editMode {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.editMode input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.editMode input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.editButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.editButtons button {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.editButtons button:first-child {
+  background-color: #2563eb;
+  color: white;
+}
+
+.editButtons button:first-child:hover {
+  background-color: #1d4ed8;
+}
+
+.editButtons button:last-child {
+  background-color: #ef4444;
+  color: white;
+}
+
+.editButtons button:last-child:hover {
+  background-color: #dc2626;
+}
+
+.actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.actions button:first-child {
+  background-color: #2563eb;
+  color: white;
+}
+
+.actions button:first-child:hover {
+  background-color: #1d4ed8;
+}
+
+.actions button:last-child {
+  background-color: #ef4444;
+  color: white;
+}
+
+.actions button:last-child:hover {
+  background-color: #dc2626;
+}
